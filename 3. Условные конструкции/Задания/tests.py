@@ -173,6 +173,7 @@ TASKS = [
             TestCase("5\n5\n8",   "Тупоугольный"),
             TestCase("1\n2\n4",   "Не существует"),
             TestCase("3\n3\n3",   "Остроугольный"),
+            TestCase("5\n3\n4",   "Прямоугольный"),
         ],
     ),
     TaskConfig(
