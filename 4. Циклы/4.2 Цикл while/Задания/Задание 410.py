@@ -1,4 +1,4 @@
-max_num = 1
+max_num = -float('inf')
 while (n := int(input())) != 0:
         if n > max_num:
             max_num = n
