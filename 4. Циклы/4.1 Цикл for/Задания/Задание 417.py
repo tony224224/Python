@@ -15,6 +15,6 @@ for i in range(n):
 
 average = positives_sum / positives_count
 
-print(f"Нулей:zeros")
-print(f"Отрицательных:negatives")
-print(f"Среднее положительных:average")
+print(f"Нулей: {zeros}")
+print(f"Отрицательных: {negatives}")
+print(f"Среднее положительных: {average:.2f}")
