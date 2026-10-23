@@ -10,12 +10,10 @@ def is_prime(n):
 
 
 n = int(input())
-count = 0          #сколько мы нашли
-current_number = 2     #текущее число
-result = ''        #то куда мы складываем простые числа
+count = 0                               # сколько мы нашли
+current_number = 2                      # текущее число
 while count < n:
-    if is_prime(current_number):      #передача текущего числа на проверку def
-        result += f'{current_number}' + " "     #если простое, то добавляем в result
+    if is_prime(current_number):        # передача текущего числа на проверку в is_prime()
+        print(current_number, end=' ')
         count += 1
         current_number += 1
-print(result)
