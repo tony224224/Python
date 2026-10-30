@@ -1,3 +1,6 @@
+from dis import code_info
+
+
 def is_prime(n):
     if n < 2:
         return False
@@ -14,4 +17,4 @@ while count < n:
     if is_prime(current_number):  # передача текущего числа на проверку в is_prime()
         print(current_number, end=' ')
         count += 1
-current_number += 1
+        current_number += 1
