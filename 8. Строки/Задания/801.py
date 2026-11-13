@@ -1,0 +1,5 @@
+n = input()
+count = n.count('a') + n.count('A')
+n = n.replace('a','b').replace('A','B')
+print(n)
+print(count)
