@@ -1,0 +1,5 @@
+n = input()
+count = n.count("a") + n.count("A") + n.count("b") + n.count("B")
+n = n.replace("a","$").replace("b","a").replace("$","b").replace("A","@").replace("B","A").replace("@","B")
+print(n)
+print(count)
