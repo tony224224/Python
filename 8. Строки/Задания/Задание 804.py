@@ -18,3 +18,7 @@ def CaesarCipher(S, k):
     for c in S:
         result += CaesarCipherChar(c, k)
     return result
+
+k = 3
+s = input()
+print(CaesarCipher(s, k))
